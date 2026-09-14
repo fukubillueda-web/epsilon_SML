@@ -1,0 +1,16 @@
+name = "epsilon_SML"
+version = "1.0.0"
+defaultTargets = ["LanglandsSecondMainLemma"]
+
+[[require]]
+name = "epsilon_FML"
+git = "https://github.com/fukubillueda-web/epsilon_FML.git"
+rev = "7a6cdfa23b5d246919b0d38f6953104756507a42"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
+
+[[lean_lib]]
+name = "LanglandsSecondMainLemma"

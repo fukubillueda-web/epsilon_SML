@@ -1,0 +1,9 @@
+.lake/
+.DS_Store
+references/*.aux
+references/*.log
+references/*.out
+references/*.toc
+references/*.fls
+references/*.fdb_latexmk
+references/*.synctex.gz
